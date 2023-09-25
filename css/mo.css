@@ -1,0 +1,105 @@
+ /* .one{
+  border-bottom:2px solid red;
+  color: red;
+}
+
+.two{
+  border-bottom:2px solid green;
+  color: green;
+
+}
+
+.theree{
+  border-bottom:2px solid blue;
+  color: #0000ff;
+}
+
+.four{
+  border-bottom:2px solid black;
+  color: #000000;
+}
+.one,
+.two,
+.theree,
+.four,
+.my_p{
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #eee;
+}
+div p{
+  color: #0000ff;
+}
+p{
+  color: #000;
+}
+.new .new{
+  color: gold;
+}  
+div{
+  background:gold;
+  padding: 10px;
+  min-width: 20px;
+  max-width: 400px;
+  min-height: 20px;
+  max-height: 400px;
+} */
+body{
+  background-image:url(../img/matrix-code-animation-gif-free-animated-background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+div{
+  background-color: #ffd700;
+  width: auto ;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+div h1{
+  padding:inherit;
+}
+hr{
+  color: #ffd700;
+}
+p{
+  color: black;
+  background-color: #ffd700;
+  text-align: center;
+  display: block;
+}
+span{
+  color: black;
+  background-color: #ffd700;
+  text-align: center;
+  display: block;
+  cursor: help;
+}
+.parent{
+  background-color: #000000;
+  padding: 10px;
+  overflow: hidden;
+}
+.parent div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #ffd700;
+  width: 25%;
+  float: left;
+}
+.clear{
+  clear: both;
+}
+.div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #eee;
+  float: left;
+  width: calc((100% - 60px) / 5);
+  margin-left: 2%;
+}
