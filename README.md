@@ -1,2 +1,0 @@
-# MOCSS
-MO Css Learning
